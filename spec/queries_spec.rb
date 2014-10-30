@@ -9,7 +9,7 @@ describe 'queries across data sets' do
       let(:doctor) { doctors["Pye"] }
 
       it "returns a list of names of that doctor's patients" do
-        exepct(doctors_patients_names(doctor, patients)).to be == [
+        expect(doctors_patients_names(doctor, patients)).to be == [
           'Bertha Jorkins',
           'Remus Lupin'
         ]
