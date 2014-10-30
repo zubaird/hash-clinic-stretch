@@ -48,4 +48,14 @@ describe 'queries across data sets' do
       # write tests
     end
   end
+
+  # It turns out there is a ton more to know and do:
+  #   * Customer wants to know which doctors are least utilized, so they can give them patients.
+  #     They want that as a list of medical ids, and then a different list as names
+  #   * They also want to know which clinic is least utilized
+  #   * Finally, (we hope), they want a list of doctors per clinic by popularity. So given a clinic
+  #     they want to know which doctors have most patients, then the next most popular doc, and so
+  #     on
+  #
+  # Keep going writing tests to make this happen
 end
